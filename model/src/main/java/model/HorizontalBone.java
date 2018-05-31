@@ -14,7 +14,7 @@ public double setX(double posX, double posY) {
 
 public HorizontalBone(double posX, double posY) {
 	super();
-	idSprite = int;
+	// Creer la liason entre Sprite et les autres idSprite = int;
 	this.posX = posX;
 	this.posY = posY;
 	
