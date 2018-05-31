@@ -1,6 +1,6 @@
 package model;
+//Lier au niveau !!
 
-// Implementer le niveau et modifier les methodes 
 
 public class HorizontalBone extends Immobile{
 

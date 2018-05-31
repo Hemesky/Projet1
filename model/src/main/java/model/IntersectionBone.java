@@ -1,7 +1,8 @@
 package model;
+//Lier au niveau !!
 
-public class IntersectionBone {
-	public class HorizontalBone extends Immobile{
+public class IntersectionBone extends Immobile{
+	
 
 		double posX;
 		double posY;
@@ -11,7 +12,7 @@ public class IntersectionBone {
 		return posY;}
 
 
-	public HorizontalBone(double posX, double posY) {
+	public IntersectionBone(double posX, double posY) {
 		super();
 		// Creer la liason entre Sprite et les autres idSprite = int;
 		this.posX = posX;
@@ -22,5 +23,5 @@ public class IntersectionBone {
 	
 	
 	
-}
+
 }
