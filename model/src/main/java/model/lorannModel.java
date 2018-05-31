@@ -11,7 +11,7 @@ import model.dao.ExampleDAO;
  * @author Jean-Aymeric DIET jadiet@cesi.fr
  * @version 1.0tzer
  */
-public final class ModelFacade implements IModel {
+public final class lorannModel implements IModel {
 
     /**
      * Instantiates a new model facade.
