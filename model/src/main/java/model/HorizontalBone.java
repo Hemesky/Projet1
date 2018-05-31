@@ -1,9 +1,27 @@
 package model;
 
-public class HorizontalBone extends Immobile {
+// Implementer le niveau et modifier les methodes 
 
-	posX :double;
-	posY :double;
+public class HorizontalBone extends Immobile{
+
+	double posX;
+	double posY;
+	
+
+public double setX(double posX, double posY) {
+	return posY;}
+
+
+public HorizontalBone(double posX, double posY) {
+	super();
+	idSprite = int;
+	this.posX = posX;
+	this.posY = posY;
+	
+};
+
+
 
 
 }
+

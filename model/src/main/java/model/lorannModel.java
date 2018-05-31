@@ -1,6 +1,7 @@
 package model;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import model.dao.ExampleDAO;
@@ -13,13 +14,30 @@ import model.dao.ExampleDAO;
  */
 public final class lorannModel implements IModel {
 
+	int map;
+	int world;
     /**
      * Instantiates a new model facade.
      */
-    public ModelFacade() {
+    public lorannModel() {
         super();
     }
-
+    public void  getMap() {};
+    public void setMap() {};
+    
+    public ArrayList<Imobile > getMobiles () {
+		return null;
+	}
+   
+    public void setMobile () {};
+    public ArrayList <Iimmobile> getImmobile() {
+    	return null;
+    }
+    
+    public void setImmobile() {};
+    
+    
+    ;
     /*
      * (non-Javadoc)
      * @see model.IModel#getExampleById(int)
